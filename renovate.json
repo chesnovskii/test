@@ -1,0 +1,27 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "(^|/)Dockerfile$"
+      ],
+      "matchStrings": [
+        "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV .*?_VERSION=\"?(?<currentValue>.*?)\"?\\s"
+      ],
+      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
+    }
+  ],
+    "packageRules": [
+      {
+        "datasources": [
+          "repology"
+        ],
+        "packagePatterns": [
+          "^debian_11/"
+        ],
+        "separateMajorMinor": false,
+        "matchManagers": ["regex"],
+        "groupName": "debian packages",
+        "groupSlug": "debian",
+      }
+    ]
+}
