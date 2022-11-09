@@ -1,5 +1,6 @@
 FROM debian:bullseye
 
+# renovate: datasource=repology depName=debian_11/nginx versioning=loose
 ENV PACKAGE_VERSION 1.20.2
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
