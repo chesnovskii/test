@@ -14,5 +14,5 @@ RUN curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
     | tee /etc/apt/sources.list.d/nginx.list
     
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    nginx=${PACKAGE_VERSION}-1~bullseye \
+    nginx=${PACKAGE_VERSION}* \
     && rm -rf /var/lib/apt/lists/*
