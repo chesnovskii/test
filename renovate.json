@@ -22,10 +22,6 @@
         "packagePatterns": [
           "^debian_11/"
         ],
-        "separateMajorMinor": false,
-        "matchManagers": ["regex"],
-        "groupName": "debian packages",
-        "groupSlug": "debian",
       }
     ]
 }
