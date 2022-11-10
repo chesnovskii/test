@@ -3,6 +3,16 @@
   "extends": [
     "config:base"
   ],
+  "packageRules": [
+    {
+      "datasources": [
+        "repology"
+      ],
+      "packagePatterns": [
+        "^debian_11/"
+      ],
+    }
+  ],
   "regexManagers": [
     {
       "description": "Update _VERSION variables in Dockerfiles",
