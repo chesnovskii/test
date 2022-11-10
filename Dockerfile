@@ -1,7 +1,7 @@
 FROM debian:bullseye
 
 # renovate: datasource=repology depName=debian_11/nginx versioning=loose
-ENV NGINX_VERSION="1.18.0"
+ENV NGINX_VERSION="1.18.0-6.1+deb11u2"
 
 # renovate: datasource=repology depName=alpine_3_12/gcc versioning=loose
 ENV GCC_VERSION="12.1.0"
