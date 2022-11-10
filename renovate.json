@@ -9,7 +9,7 @@
         "repology"
       ],
       "packagePatterns": [
-        "^debian_stable/"
+        "^debian_11/"
       ],
       "separateMajorMinor": false,
       "groupName": "debian packages",
