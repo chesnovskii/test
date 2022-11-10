@@ -3,12 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [
-    {
-      "matchManagers": ["regex"],
-      "matchDatasources": ["repology"]
-    }
-  ],
   "regexManagers": [
     {
       "description": "Update _VERSION variables in Dockerfiles",
