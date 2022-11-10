@@ -6,8 +6,7 @@
   "packageRules": [
     {
       "matchManagers": ["regex"],
-      "matchDatasources": ["repology"],
-      "packagePatterns": ["^debian_11/"]
+      "matchDatasources": ["repology"]
     }
   ],
   "regexManagers": [
