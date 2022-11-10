@@ -18,8 +18,7 @@
         ],
         "packagePatterns": [
           "^debian_11/"
-        ],
-        "groupName": "debian packages",
+        ]
       }
     ]
 }
