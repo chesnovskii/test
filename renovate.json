@@ -14,12 +14,6 @@
       "separateMajorMinor": false,
       "groupName": "debian packages",
       "groupSlug": "debian"
-    },
-    {
-      "description": "release cut",
-      "packagePatterns": [".*"],
-      "managers": ["regex"],
-      "extractVersion": "^(v|release-)?(?<version>.*)$"
     }
   ],
   "regexManagers": [
