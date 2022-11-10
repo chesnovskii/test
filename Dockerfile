@@ -3,6 +3,9 @@ FROM python:3.10
 # renovate: datasource=repology depName=debian_11/nginx versioning=loose
 ENV NGINX_VERSION 1.20.2
 
+# renovate: datasource=repology depName=ubuntu_20_04/python3-defaults versioning=loose
+ENV PYTHON3_VERSION="3.8.2"
+
 # renovate: datasource=npm depName=renovate versioning=npm
 ARG RENOVATE_VERSION=34.21.2
 
