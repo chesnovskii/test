@@ -22,6 +22,7 @@
         "packagePatterns": [
           "^debian_11/"
         ],
+        "dependencyDashboardApproval": true
       }
     ]
 }
