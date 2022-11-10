@@ -7,7 +7,7 @@
     {
       "matchManagers": ["regex"],
       "matchDatasources": ["repology"],
-      "registryUrls": ["http://nginx.org/packages/debian"]
+      "packagePatterns": ["^debian_11/"]
     }
   ],
   "regexManagers": [
