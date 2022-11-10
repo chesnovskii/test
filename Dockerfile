@@ -12,9 +12,6 @@ ENV PYTHON3_VERSION="3.8.2"
 # renovate: datasource=npm depName=renovate versioning=npm
 ARG RENOVATE_VERSION=34.21.2
 
-# renovate packageName=alpine_3_13/openjdk11
-ARG JDK_VERSION=11.0.8_p10-r0
-
 # SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # RUN apt-get update && apt-get install -y --no-install-recommends \
