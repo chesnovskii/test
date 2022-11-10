@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM debian:bullseye
 
 # renovate: datasource=repology depName=debian_11/nginx versioning=loose
 ENV NGINX_VERSION="1.18.0"
