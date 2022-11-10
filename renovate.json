@@ -22,13 +22,8 @@
         "packagePatterns": [
           "^debian_11/"
         ],
-        "matchManagers": ["regex"],
+        "matchManagers": ["regex","dockerfile"],
         "groupName": "debian packages"
-      },
-      {
-        "matchManagers": ["dockerfile"],
-        "automerge": true,
-        "groupName": "dockerimage"
       }
    ]
 }
