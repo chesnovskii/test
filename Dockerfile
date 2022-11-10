@@ -1,7 +1,10 @@
 FROM python:3.10
 
 # renovate: datasource=repology depName=debian_11/nginx versioning=loose
-ENV NGINX_VERSION 1.20.2
+ENV NGINX_VERSION="1.20.2"
+
+# renovate: datasource=repology depName=alpine_3_12/gcc versioning=loose
+ENV GCC_VERSION="9.3.0-r2"
 
 # renovate: datasource=repology depName=debian_stable/make-dfsg versioning=loose
 ENV MAKE_VERSION="4.1.0"
