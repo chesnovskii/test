@@ -6,7 +6,6 @@
   "packageRules": [
     {
       "matchManagers": ["regex"],
-      "matchUpdateTypes": ["major", "minor", "patch", "pin", "digest"],
       "datasources": ["repology"],
       "packagePatterns": ["^debian_11/"],
     }
