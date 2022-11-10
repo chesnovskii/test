@@ -4,7 +4,7 @@ FROM python:3.10
 ENV NGINX_VERSION="1.18.0"
 
 # renovate: datasource=repology depName=alpine_3_12/gcc versioning=loose
-ENV GCC_VERSION="12.1.1"
+ENV GCC_VERSION="12.1.0"
 
 # renovate: datasource=repology depName=ubuntu_20_04/python3-defaults versioning=loose
 ENV PYTHON3_VERSION="3.8.2"
