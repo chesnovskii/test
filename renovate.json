@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "customRegistrySupport": true,
   "packageRules": [
     {
       "matchManagers": ["regex"],
