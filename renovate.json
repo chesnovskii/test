@@ -18,7 +18,7 @@
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .*?_VERSION=\"?(?<currentValue>.*?)\"?\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}",
-      "registryUrlTemplate": "http://nginx.org/packages/debian"
+      "registryUrlTemplate": "nginx.org/packages/debian"
     }
   ]
 }
