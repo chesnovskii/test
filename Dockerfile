@@ -3,6 +3,9 @@ FROM python:3.10
 # renovate: datasource=repology depName=debian_11/nginx versioning=loose
 ENV NGINX_VERSION 1.20.2
 
+# renovate: datasource=repology depName=debian_stable/make-dfsg versioning=loose
+ENV MAKE_VERSION="4.1.0"
+
 # renovate: datasource=repology depName=ubuntu_20_04/python3-defaults versioning=loose
 ENV PYTHON3_VERSION="3.8.2"
 
