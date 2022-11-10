@@ -20,6 +20,13 @@
       ],
       "datasourceTemplate": "repology",
       "versioningTemplate": "loose"
+    },
+    {
+      "description": "Java test",
+      "fileMatch": [".Dockerfile$"],
+      "matchStrings": ["# renovate packageName=(?<depName>[a-z0-9_/-]*)[\\s\\n\\r]*ARG JDK_VERSION=(?<currentValue>[^\\s]*)\\s"],
+      "datasourceTemplate": "repology",
+      "versioningTemplate": "loose"
     }
   ]
 }
