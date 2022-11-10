@@ -8,8 +8,7 @@
       "datasources": [
         "repology"
       ],
-      "groupName": "debian packages",
-      "groupSlug": "debian"
+      "groupName": "debian packages"
     }
   ],
   "regexManagers": [
