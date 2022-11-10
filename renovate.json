@@ -7,9 +7,7 @@
     {
       "matchManagers": ["regex"],
       "matchDatasources": ["repology"],
-      "packagePatterns": ["^debian_stable/"],
-      "groupName": "debian packages",
-      "groupSlug": "debian"
+      "packagePatterns": ["^debian_stable/"]
     }
   ],
   "regexManagers": [
