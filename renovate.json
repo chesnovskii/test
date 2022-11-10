@@ -19,7 +19,6 @@
         "packagePatterns": [
           "^debian_11/"
         ],
-        "matchManagers": ["regex"],
         "groupName": "debian packages",
       }
     ]
