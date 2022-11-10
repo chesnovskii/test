@@ -3,14 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [
-    {
-      "datasources": [
-        "repology"
-      ],
-      "groupName": "debian packages"
-    }
-  ],
   "regexManagers": [
     {
       "description": "Update _VERSION variables in Dockerfiles",
@@ -26,6 +18,7 @@
       "matchStrings": [
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV .*?_VERSION=\"?(?<currentValue>.*?)\"?\\s"
       ],
+      "datasourceTemplate": "repology",
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     },
     {
