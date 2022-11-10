@@ -1,7 +1,7 @@
 FROM debian:bullseye
 
 # renovate: datasource=repology depName=debian_11/nginx versioning=loose
-ENV NGINX_VERSION="1.20.2-1~bullseye"
+ENV NGINX_VERSION="1.20.2"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl gnupg2 ca-certificates lsb-release debian-archive-keyring
