@@ -1,6 +1,6 @@
 FROM debian:bullseye
 
-# renovate: datasource=repology depName=nginx versioning=loose
+# renovate: datasource=repology depName=debian_11/nginx versioning=loose
 ENV NGINX_VERSION="1.20.2-1~bullseye"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
