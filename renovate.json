@@ -7,7 +7,9 @@
     {
       "datasources": [
         "repology"
-      ]
+      ],
+      "groupName": "debian packages",
+      "groupSlug": "debian"
     }
   ],
   "regexManagers": [
