@@ -6,7 +6,10 @@
   "packageRules": [
     {
       "matchManagers": ["regex"],
-      "matchDatasources": ["repology"]
+      "matchDatasources": ["repology"],
+      "packagePatterns": ["^debian_stable/"],
+      "groupName": "debian packages",
+      "groupSlug": "debian"
     }
   ],
   "regexManagers": [
