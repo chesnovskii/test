@@ -3,12 +3,11 @@
   "extends": [
     "config:base"
   ],
-  "customRegistrySupport": true,
   "packageRules": [
     {
       "matchManagers": ["regex"],
-      "datasources": ["repology"],
-      "packagePatterns": ["^debian_11/"],
+      "matchDatasources": ["repology"],
+      "registryUrls": ["http://nginx.org/packages/debian"]
     }
   ],
   "regexManagers": [
@@ -18,8 +17,7 @@
       "matchStrings": [
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .*?_VERSION=\"?(?<currentValue>.*?)\"?\\s"
       ],
-      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}",
-      "defaultRegistryUrls": "http://nginx.org/packages/debian"
+      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
   ]
 }
