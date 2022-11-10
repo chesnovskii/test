@@ -16,7 +16,7 @@
       "groupSlug": "debian"
     },
     {
-      "description": "release cut"
+      "description": "release cut",
       "packagePatterns": [".*"],
       "managers": ["regex"],
       "extractVersion": "^(v|release-)?(?<version>.*)$"
