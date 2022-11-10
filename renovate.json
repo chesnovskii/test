@@ -7,14 +7,7 @@
     {
       "datasources": [
         "repology"
-      ],
-      "packagePatterns": [
-        "^debian_11/"
-      ],
-      "separateMajorMinor": false,
-      "groupName": "debian packages",
-      "groupSlug": "debian"
-    }
+      ]
   ],
   "regexManagers": [
     {
@@ -32,14 +25,6 @@
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV .*?_VERSION=\"?(?<currentValue>.*?)\"?\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
-    },
-    {
-      "description": "From https://docs.renovatebot.com/modules/datasource/#repology-datasource",
-      "fileMatch": ["^Dockerfile$"],
-      "matchStrings": [
-        "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV .*?_VERSION=\"(?<currentValue>.*)\"\\s"
-      ],
-      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     },
     {
       "description": "Update install-* Buildpack commands in Dockerfiles",
