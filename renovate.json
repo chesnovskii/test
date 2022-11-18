@@ -22,7 +22,12 @@
      {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["chesnovskii/sample"],
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)($|\\.(?<patch>\\d+)-(?<pin>\\d+))$"
-    }
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)($|\\.(?<patch>\\d+)-(?<pre-release>\\d+))$"
+     },
+     {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["chesnovskii/sample"],
+      "versioning": "semver"
+     },
   ]
 }
