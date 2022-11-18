@@ -12,5 +12,15 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "major",
+        "minor", 
+        "pin", 
+        "pinDigest"
+      ]
+    }
   ]
 }
