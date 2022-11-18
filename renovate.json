@@ -18,6 +18,11 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["wallarm/node"],
       "versioning": "regex:^(?<compatibility>.*):?(?<major>\\d+)\\.(?<minor>\\d+)($|-(?<patch>\\d+))$"
+    },
+     {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["chesnovskii/sample"],
+      "versioning": "regex:^(?<compatibility>.*):?(?<major>\\d+)\\.(?<minor>\\d+)($|-(?<patch>\\d+))$"
     }
   ]
 }
