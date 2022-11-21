@@ -1,1 +1,1 @@
-FROM chesnovskii/sample:1.0
+FROM chesnovskii/sample:1.7.1
