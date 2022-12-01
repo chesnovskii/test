@@ -1,1 +1,1 @@
-FROM wallarm/node:4.0
+FROM wallarm/node:4.4
