@@ -10,7 +10,7 @@ ENV GCC_VERSION="12.1.0"
 ENV PYTHON3_VERSION="3.8.2"
 
 # renovate: datasource=npm depName=renovate versioning=npm
-ARG RENOVATE_VERSION=34.21.2
+ARG RENOVATE_VERSION=34.43.0
 
 # SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
