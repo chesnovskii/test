@@ -12,5 +12,10 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["patch", "digest", "bump"]
+    }
   ]
 }
