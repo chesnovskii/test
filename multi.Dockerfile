@@ -1,4 +1,4 @@
 FROM golang:1.19 as builder
 LABEL maintainer="Stanislav Chesnovskii"
 
-FROM chesnovskii/sample@sha256:6236552681e2a48d3af7f8a834b4305e19239d25c75b0a44a9c37794354a5ce4
+FROM chesnovskii/didgest@sha256:02677ecad56d5a13fa825028a5f499d1c1f8e59a5b4aee0acdedb439aac20e37
